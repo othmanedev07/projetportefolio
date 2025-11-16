@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le 7ème Ciel - Restaurant Rooftop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Le 7ème Ciel</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#story">Concept</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#reservation">Réservation</a></li>
+                <li><a href="#reviews">Avis</a></li>
+                <li><a href="#location">Localisation</a></li>
+            </ul>
+            <button class="reserve-btn">Réserver</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2>Dînez au-dessus des nuages</h2>
+                <p>Une expérience culinaire raffinée dans un cadre rooftop exceptionnel</p>
+                <button class="cta-btn">Découvrir le menu</button>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder for sunset rooftop image -->
+                <div class="sunset-placeholder"></div>
+            </div>
+        </section>
+
+        <section id="story" class="story">
+            <div class="container">
+                <h2>Notre Concept</h2>
+                <p>Le 7ème Ciel vous invite à une expérience gastronomique unique, où la cuisine française rencontre les hauteurs de la ville. Notre rooftop offre une vue imprenable sur le skyline urbain, créant une atmosphère romantique et exclusive pour vos moments les plus précieux.</p>
+                <div class="story-features">
+                    <div class="feature">
+                        <h3>Fine Dining</h3>
+                        <p>Une gastronomie moderne et raffinée</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Vue Panoramique</h3>
+                        <p>Admirez la ville depuis les hauteurs</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Ambiance Romantique</h3>
+                        <p>Un cadre idéal pour vos soirées spéciales</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Notre Menu</h2>
+                <div class="menu-categories">
+                    <div class="category">
+                        <h3>Entrées</h3>
+                        <ul>
+                            <li>Foie gras de canard mi-cuit aux figues rôties - 28€</li>
+                            <li>Caviar d'Aquitaine sur blinis - 45€</li>
+                            <li>Tartare de thon rouge aux agrumes - 24€</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Plats Principaux</h3>
+                        <ul>
+                            <li>Filet de bœuf Angus aux morilles - 58€</li>
+                            <li>Loup de mer grillé aux herbes - 42€</li>
+                            <li>Risotto aux truffes noires - 38€</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Desserts</h3>
+                        <ul>
+                            <li>Soufflé au Grand Marnier - 18€</li>
+                            <li>Tarte au citron meringuée - 16€</li>
+                            <li>Assortiment de macarons - 14€</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Galerie</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipODi_Um9dRZ673ENl6pLOSKThAEntQdZ3OZK78O=s1360-w1360-h1020-rw" alt="Terrasse élégante">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipPl5eDM92m6k06qolEbLq3is2B4ANdNLgI6z9Mk=s1360-w1360-h1020-rw" alt="Éclairage tamisé">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxav9sX1gFWeMaBdnkiK0R0K9xZExU6fAi6eG2hpNgkw1KqKslI9YwJQ90JrUpwUIM56PtymBL4e8CHHKzisi6QHUnbKv6kicpYx_xbUF0gIQfQvO_jDOFLdGQdxRx-V60wHTRsBw=s1360-w1360-h1020-rw" alt="Plantes décoratives">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipM39Jt3vYOGptX8j9wT8591wkYfbYCs3IJIRLO2=s1360-w1360-h1020-rw" alt="Vue sur la ville">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation" class="reservation">
+            <div class="container">
+                <h2>Réservation</h2>
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Heure</label>
+                        <select id="time" required>
+                            <option value="">Sélectionnez une heure</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Nombre de convives</label>
+                        <select id="guests" required>
+                            <option value="">Nombre de personnes</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6+</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Réserver</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>Avis Clients</h2>
+                <div class="reviews-grid">
+                    <div class="review">
+                        <div class="stars">★★★★★</div>
+                        <p>"Une soirée inoubliable ! La vue est spectaculaire et la cuisine divine."</p>
+                        <cite>- Marie L.</cite>
+                    </div>
+                    <div class="review">
+                        <div class="stars">★★★★★</div>
+                        <p>"Service impeccable et ambiance romantique parfaite pour notre anniversaire."</p>
+                        <cite>- Jean-Pierre D.</cite>
+                    </div>
+                    <div class="review">
+                        <div class="stars">★★★★★</div>
+                        <p>"Le 7ème Ciel mérite bien son nom. Une expérience culinaire exceptionnelle."</p>
+                        <cite>- Sophie M.</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="location">
+            <div class="container">
+                <h2>Notre Localisation</h2>
+                <div class="location-content">
+                    <div class="location-info">
+                        <h3>Adresse</h3>
+                        <p>123 Avenue des Étoiles<br>75008 Paris, France</p>
+                        <h3>Contact</h3>
+                        <p>Téléphone: +33 1 23 45 67 89<br>Email: reservation@le7emeciel.fr</p>
+                        <h3>Horaires</h3>
+                        <p>Ouvert tous les jours<br>Dîner: 19h00 - 23h00</p>
+                    </div>
+                    <div class="map">
+                        <!-- Placeholder for interactive map -->
+                        <div class="map-placeholder">
+                            <p>Carte interactive ici</p>
+                            <p>(Intégration Google Maps ou similaire)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Le 7ème Ciel. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
